@@ -4,6 +4,7 @@ import VikingDivider from '../components/VikingDivider';
 import HeroBackground from '../components/HeroBackground';
 import Portfolio from '../components/Portfolio';
 import { useTranslation } from 'react-i18next';
+import FloatingWhatsAppButton from '../components/floatingwppbutton';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -157,6 +158,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <FloatingWhatsAppButton/>
     </div>
   );
 }
