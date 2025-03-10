@@ -10,7 +10,7 @@ export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen" style={{ backgroundColor: '#06062d' }}>
       {/* Hero Section */}
       <motion.section 
         initial={{ opacity: 0 }}

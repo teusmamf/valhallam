@@ -77,7 +77,7 @@ export default function Contact() {
               <Phone className="w-6 h-6 text-yellow-500 flex-shrink-0" />
               <div>
                 <h3 className="text-white font-medium">{t('contact.phoneTitle')}</h3>
-                <p className="text-gray-300">(11) 99999-9999</p>
+                <p className="text-gray-300">(45) 99903-6871 </p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
