@@ -23,7 +23,7 @@ const translations = {
         subtitle: 'Projetos já entregues',
         vikingEcommerce: 'Plataforma de e-commerce com tema nórdico, oferecendo produtos artesanais e históricos.',
         weatherApp: 'Aplicativo de previsão do tempo com interface inspirada na mitologia nórdica.',
-        runeTranslator: 'Tradutor de runas nórdicas usando inteligência artificial.',
+        runeTranslator: 'Site com animações 3D para agência de marketing',
         live: 'Ver Projeto',
         code: 'Ver Código',
         viewMore: 'Ver Mais Projetos'
@@ -75,7 +75,7 @@ const translations = {
         subtitle: 'Digital conquests forged with Nordic excellence',
         vikingEcommerce: 'Nordic-themed e-commerce platform offering handcrafted and historical products.',
         weatherApp: 'Weather forecast application with Norse mythology-inspired interface.',
-        runeTranslator: 'Nordic runes translator using artificial intelligence.',
+        runeTranslator: 'Website for marketing agency with 3D animations',
         live: 'View Project',
         code: 'View Code',
         viewMore: 'View More Projects'
