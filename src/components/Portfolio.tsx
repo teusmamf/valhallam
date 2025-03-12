@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import sassLogo from '../assets/sass.png';
 import estacionamento from '../assets/estacionamentoRot.png';
 import monaco from '../assets/logomonaco.png';
+import newtech from '../assets/newtech.png';
+
 
 export default function Portfolio() {
   const { t } = useTranslation();
@@ -11,7 +13,7 @@ export default function Portfolio() {
   const projects = [
     {
       title: 'Sass para casais',
-      description: t('portfolio.sass'),
+      description: t('Sistema que permite casais criarem páginas com mapaeamento das estrelas de datas especiais'),
       image: sassLogo,
       technologies: ['React', 'Node.js', 'MongoDB'],
       liveUrl: 'https://rainbow-frangollo-578f23.netlify.app/',
@@ -19,7 +21,7 @@ export default function Portfolio() {
     },
     {
       title: 'Site estacionamento rotativo',
-      description: t('portfolio.estacionamentorotativo'),
+      description: t('Site institucional para rede de estacionamentos'),
       image: estacionamento,
       technologies: ['React', 'nodejs', 'googlecloud'],
       liveUrl: 'https://thunderous-elf-16b7c5.netlify.app/',
@@ -31,6 +33,14 @@ export default function Portfolio() {
       image: monaco,
       technologies: ['TypeScript', 'Next.js', 'AI Integration'],
       liveUrl: 'https://monacosite.netlify.app/',
+      
+    },
+    {
+      title:  'Site newTech',
+      description: t('Site 3D para lojas de eletrônicos'),
+      image: monaco,
+      technologies: ['TypeScript', 'Next.js', 'AI Integration'],
+      liveUrl: 'https://newtechcvel.netlify.app/',
       
     }
   ];
