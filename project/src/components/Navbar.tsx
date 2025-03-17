@@ -26,14 +26,14 @@ const Navbar = () => {
               className="flex items-center space-x-1 hover:text-gray-300 transition-colors duration-300 group"
             >
               <Globe className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
-              <span>Services</span>
+              <span>Serviços</span>
             </Link>
             
             <Link 
               to="/contact" 
               className="px-4 py-2 rounded-full border border-white hover:bg-white hover:text-black transition-all duration-300"
             >
-              Contact Us
+              Contato
             </Link>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-// Define the type for a project
+// Define o tipo para um projeto
 type Project = {
   id: number;
   title: string;
@@ -9,7 +9,7 @@ type Project = {
   image: string;
 };
 
-// Define the animation variants
+// Define as variantes de animação
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
   animate: { opacity: 1, y: 0 },
@@ -24,30 +24,30 @@ const staggerContainer = {
   }
 };
 
-// Define the props for the component (if any)
+// Define as props para o componente (se necessário)
 interface PastProjectsProps {
-  // Add any props here if needed
+  // Adicione quaisquer props aqui, se necessário
 }
 
 const PastProjects: React.FC<PastProjectsProps> = () => {
-  // Sample data for past projects
+  // Dados de exemplo para projetos anteriores
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A fully automated e-commerce platform with AI-driven recommendations.",
+      title: "Plataforma de E-Commerce",
+      description: "Uma plataforma de e-commerce totalmente automatizada com recomendações baseadas em IA.",
       image: "https://via.placeholder.com/400x200"
     },
     {
       id: 2,
-      title: "Corporate Website",
-      description: "A modern, responsive website for a leading tech corporation.",
+      title: "Site Corporativo",
+      description: "Um site moderno e responsivo para uma grande empresa de tecnologia.",
       image: "https://via.placeholder.com/400x200"
     },
     {
       id: 3,
-      title: "Customer Support Bot",
-      description: "An AI-powered chatbot that handles 80% of customer inquiries.",
+      title: "Chatbot de Suporte ao Cliente",
+      description: "Um chatbot alimentado por IA que resolve 80% das consultas dos clientes.",
       image: "https://via.placeholder.com/400x200"
     }
   ];
@@ -65,7 +65,7 @@ const PastProjects: React.FC<PastProjectsProps> = () => {
           className="text-4xl font-bold text-center mb-16"
           variants={fadeIn}
         >
-          Past Projects
+          Projetos Anteriores
         </motion.h2>
         
         <div className="grid md:grid-cols-3 gap-8">

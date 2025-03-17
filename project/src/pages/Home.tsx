@@ -22,7 +22,7 @@ const staggerContainer = {
 const Home = () => {
   return (
     <div className="relative">
-      {/* Hero Section */}
+      {/* Seção Hero */}
       <div className="relative h-screen">
         <div className="absolute inset-0 z-0" style={{ pointerEvents: 'all' }}>
           <Spline 
@@ -42,14 +42,14 @@ const Home = () => {
               className="text-5xl md:text-7xl font-bold mb-6"
               {...fadeIn}
             >
-              Automate Your Future
+              Automatize Seu Futuro
             </motion.h1>
             <motion.p 
               className="text-xl md:text-2xl mb-8 text-gray-300"
               {...fadeIn}
               transition={{ delay: 0.2 }}
             >
-              Transform your business with cutting-edge automation and web solutions
+              Transforme seu negócio com soluções de automação e web de ponta
             </motion.p>
             <motion.div
               {...fadeIn}
@@ -59,7 +59,7 @@ const Home = () => {
                 to="/contact"
                 className="inline-flex items-center px-8 py-3 rounded-full bg-white text-black hover:bg-gray-200 transition-colors duration-300"
               >
-                Get Started
+                Comece Agora
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </motion.div>
@@ -67,7 +67,7 @@ const Home = () => {
         </motion.div>
       </div>
 
-      {/* Stats Section */}
+      {/* Seção de Estatísticas */}
       <motion.div 
         className="bg-black/80 py-16"
         initial="initial"
@@ -83,7 +83,7 @@ const Home = () => {
             >
               <Users className="w-8 h-8 mx-auto mb-4 text-white" />
               <h3 className="text-4xl font-bold mb-2">500+</h3>
-              <p className="text-gray-400">Satisfied Clients</p>
+              <p className="text-gray-400">Clientes Satisfeitos</p>
             </motion.div>
             <motion.div 
               className="text-center"
@@ -91,7 +91,7 @@ const Home = () => {
             >
               <Building2 className="w-8 h-8 mx-auto mb-4 text-white" />
               <h3 className="text-4xl font-bold mb-2">1000+</h3>
-              <p className="text-gray-400">Projects Completed</p>
+              <p className="text-gray-400">Projetos Concluídos</p>
             </motion.div>
             <motion.div 
               className="text-center"
@@ -99,13 +99,13 @@ const Home = () => {
             >
               <Star className="w-8 h-8 mx-auto mb-4 text-white" />
               <h3 className="text-4xl font-bold mb-2">98%</h3>
-              <p className="text-gray-400">Client Satisfaction</p>
+              <p className="text-gray-400">Satisfação do Cliente</p>
             </motion.div>
           </div>
         </div>
       </motion.div>
 
-      {/* Features Section */}
+      {/* Seção de Recursos */}
       <motion.div 
         className="bg-black py-24 px-4"
         initial="initial"
@@ -118,7 +118,7 @@ const Home = () => {
             className="text-4xl font-bold text-center mb-16"
             variants={fadeIn}
           >
-            Why Choose Us
+            Por Que Escolher a Nossa Empresa
           </motion.h2>
           
           <div className="grid md:grid-cols-3 gap-12">
@@ -127,8 +127,8 @@ const Home = () => {
               variants={fadeIn}
             >
               <Bot className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">AI-Powered Solutions</h3>
-              <p className="text-gray-400">Advanced automation systems that learn and adapt to your business needs</p>
+              <h3 className="text-xl font-bold mb-3">Soluções com IA</h3>
+              <p className="text-gray-400">Sistemas de automação avançados que aprendem e se adaptam às necessidades do seu negócio</p>
             </motion.div>
             
             <motion.div 
@@ -136,8 +136,8 @@ const Home = () => {
               variants={fadeIn}
             >
               <Globe className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">Modern Web Presence</h3>
-              <p className="text-gray-400">Beautiful, responsive websites that capture your brand's essence</p>
+              <h3 className="text-xl font-bold mb-3">Presença Web Moderna</h3>
+              <p className="text-gray-400">Sites bonitos e responsivos que capturam a essência da sua marca</p>
             </motion.div>
             
             <motion.div 
@@ -145,14 +145,14 @@ const Home = () => {
               variants={fadeIn}
             >
               <MessageSquare className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">24/7 Customer Service</h3>
-              <p className="text-gray-400">Automated support systems that never sleep</p>
+              <h3 className="text-xl font-bold mb-3">Atendimento 24/7</h3>
+              <p className="text-gray-400">Sistemas de suporte automatizados que nunca dormem</p>
             </motion.div>
           </div>
         </div>
       </motion.div>
 
-      {/* Testimonials Section */}
+      {/* Seção de Depoimentos */}
       <motion.div 
         className="bg-black/80 py-24 px-4"
         initial="initial"
@@ -167,7 +167,7 @@ const Home = () => {
           >
 
             <PastProjects/>
-            Client Testimonials
+            Depoimentos dos Clientes
           </motion.h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -177,7 +177,7 @@ const Home = () => {
             >
               <Quote className="w-8 h-8 mb-4 text-gray-400" />
               <p className="text-gray-300 mb-6">
-                "The automation solutions provided by FutureAuto have transformed our customer service operations. Response times are down 70% and customer satisfaction is at an all-time high."
+                "As soluções de automação fornecidas pela FutureAuto transformaram nossas operações de atendimento ao cliente. Os tempos de resposta caíram 70% e a satisfação do cliente está no auge."
               </p>
               <div>
                 <h4 className="font-bold">Sarah Johnson</h4>
@@ -191,11 +191,11 @@ const Home = () => {
             >
               <Quote className="w-8 h-8 mb-4 text-gray-400" />
               <p className="text-gray-300 mb-6">
-                "Our new website is not just beautiful, it's a powerful tool that has increased our online conversions by 150%. The team's attention to detail is remarkable."
+                "Nosso novo site não é apenas bonito, é uma ferramenta poderosa que aumentou nossas conversões online em 150%. A atenção aos detalhes da equipe é notável."
               </p>
               <div>
                 <h4 className="font-bold">Michael Chen</h4>
-                <p className="text-gray-400">Marketing Director, GrowthLabs</p>
+                <p className="text-gray-400">Diretor de Marketing, GrowthLabs</p>
               </div>
             </motion.div>
 
@@ -205,7 +205,7 @@ const Home = () => {
             >
               <Quote className="w-8 h-8 mb-4 text-gray-400" />
               <p className="text-gray-300 mb-6">
-                "The technology solutions implemented by the team have streamlined our processes and reduced operational costs by 40%. They truly understand modern business needs."
+                "As soluções tecnológicas implementadas pela equipe otimizaram nossos processos e reduziram custos operacionais em 40%. Eles realmente entendem as necessidades dos negócios modernos."
               </p>
               <div>
                 <h4 className="font-bold">Emma Davis</h4>
